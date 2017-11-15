@@ -13,7 +13,7 @@ public class LogTester {
 
 	private static final Logger LOG = LoggerFactory.getLogger(LogTester.class);
 	 public LogTester() {
-	 	for(int i=0;i<100; i++) {
+	 	for(int i=0;i<2; i++) {
 	 		    LOG.info("Test logger");
 		}
 	 }
